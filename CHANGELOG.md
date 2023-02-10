@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/Khumozin/versioning/compare/v2.0.0...v2.1.0) (2023-02-10)
+
+
+### Features
+
+* **package.json:** add TailwindCSS to the app ([6f6baf2](https://github.com/Khumozin/versioning/commit/6f6baf2bc4e20f95e939bb7e6b81e9390b34fc7d))
+
 # [2.0.0](https://github.com/Khumozin/versioning/compare/v1.0.0...v2.0.0) (2023-02-10)
 
 
