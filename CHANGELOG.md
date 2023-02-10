@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/Khumozin/versioning/compare/v1.0.0...v2.0.0) (2023-02-10)
+
+
+### Features
+
+* **package.json:** add git cz ([c5f880a](https://github.com/Khumozin/versioning/commit/c5f880a1741d5ff112bb4f9a3cd7aa1c01f7f9c5))
+
+
+### BREAKING CHANGES
+
+* **package.json:** git cz might break the app
+
 # 1.0.0 (2023-02-09)
 
 
