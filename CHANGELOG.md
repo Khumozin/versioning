@@ -1,3 +1,15 @@
+# [2.2.0](https://github.com/Khumozin/versioning/compare/v2.1.0...v2.2.0) (2023-02-10)
+
+
+### Bug Fixes
+
+* **app.component:** add develop icon ([1384052](https://github.com/Khumozin/versioning/commit/1384052e10982c73b1b64ce1e5759cc8830a92ed))
+
+
+### Features
+
+* **app.component:** add description to the page ([37f2dce](https://github.com/Khumozin/versioning/commit/37f2dceea887ca3cdc9a0b6ee9880bf1505b52e9))
+
 # [2.1.0](https://github.com/Khumozin/versioning/compare/v2.0.0...v2.1.0) (2023-02-10)
 
 
