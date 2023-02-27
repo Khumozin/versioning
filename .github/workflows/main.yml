@@ -35,6 +35,18 @@ jobs:
           file: src/assets/build.json
           field: date
           value: ${{ steps.timestamp.outputs.builddate }}
+          
+      - name: Commit build info
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "docs(build): bumping build date ${{ steps.timestamp.outputs.builddate }}"
+    
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ github.token }}
   
       - name: Semantic release
         env:
