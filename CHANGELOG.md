@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/Khumozin/versioning/compare/v3.0.0...v3.0.1) (2023-02-27)
+
+
+### Bug Fixes
+
+* **app:** add build date to application ([1760f4e](https://github.com/Khumozin/versioning/commit/1760f4e28dd60dfd2bcd9817685eac990c89ad03))
+
 # [3.0.0](https://github.com/Khumozin/versioning/compare/v2.2.0...v3.0.0) (2023-02-27)
 
 
