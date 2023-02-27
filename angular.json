@@ -97,6 +97,9 @@
             ],
             "scripts": []
           }
+        },
+        "patch-build-info": {
+          "builder": "khumo-build-info:patch"
         }
       }
     }
