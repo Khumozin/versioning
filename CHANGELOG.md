@@ -1,3 +1,20 @@
+# [3.0.0](https://github.com/Khumozin/versioning/compare/v2.2.0...v3.0.0) (2023-02-27)
+
+
+### Bug Fixes
+
+* **package-lock.json:** update packagee-lock file ([671c97d](https://github.com/Khumozin/versioning/commit/671c97d3f347a40efde01864369b87ceb26ad610))
+
+
+### Continuous Integration
+
+* **main.yml:** add script to patch build info ([0875a22](https://github.com/Khumozin/versioning/commit/0875a229106dd544340d2873b22304cf3ec86f3f))
+
+
+### BREAKING CHANGES
+
+* **main.yml:** patch-build-nfo script breaks the pipeline
+
 # [2.2.0](https://github.com/Khumozin/versioning/compare/v2.1.0...v2.2.0) (2023-02-10)
 
 
