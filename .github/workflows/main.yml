@@ -23,13 +23,18 @@ jobs:
         
       - name: Build app
         run: npm run build
+        
+      - name: Get date and time
+        run: |
+          echo "builddate=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+        id: timestamp  # this is used on variable path
 
       - name: Patch build info
         uses: jossef/action-set-json-field@v2.1
         with:
           file: src/assets/build.json
           field: date
-          value: date
+          value: ${{ steps.timestamp.outputs.builddate }}
   
       - name: Semantic release
         env:
