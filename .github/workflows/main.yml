@@ -23,31 +23,7 @@ jobs:
         
       - name: Build app
         run: npm run build
-        
-      - name: Get date and time
-        run: |
-          echo "builddate=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
-        id: timestamp  # this is used on variable path
-
-      - name: Patch build info
-        uses: jossef/action-set-json-field@v2.1
-        with:
-          file: src/assets/build.json
-          field: date
-          value: ${{ steps.timestamp.outputs.builddate }}
           
-      - name: Commit build info
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "docs(build): bumping build date ${{ steps.timestamp.outputs.builddate }}"
-    
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ github.token }}
-  
       - name: Semantic release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
