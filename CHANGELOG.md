@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/Khumozin/versioning/compare/v3.0.1...v3.0.2) (2023-02-28)
+
+
+### Bug Fixes
+
+* **app:** get build date from github api ([0508957](https://github.com/Khumozin/versioning/commit/0508957c71f18f09a6e21d6a7983183e4e503daa))
+
 ## [3.0.1](https://github.com/Khumozin/versioning/compare/v3.0.0...v3.0.1) (2023-02-27)
 
 
