@@ -1,3 +1,10 @@
+## [3.0.4](https://github.com/Khumozin/versioning/compare/v3.0.3...v3.0.4) (2023-03-02)
+
+
+### Bug Fixes
+
+* **app.component:** fix build info ([f9fca2c](https://github.com/Khumozin/versioning/commit/f9fca2cc151c327c9b823848fb5bc1b9d69026a6))
+
 ## [3.0.3](https://github.com/Khumozin/versioning/compare/v3.0.2...v3.0.3) (2023-03-02)
 
 
