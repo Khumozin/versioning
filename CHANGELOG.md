@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/Khumozin/versioning/compare/v3.0.2...v3.0.3) (2023-03-02)
+
+
+### Bug Fixes
+
+* **environments:** point to local env on dev mode ([56fbd7b](https://github.com/Khumozin/versioning/commit/56fbd7b5e60b13d2b93a7f361824caf129f9b2a1))
+
 ## [3.0.2](https://github.com/Khumozin/versioning/compare/v3.0.1...v3.0.2) (2023-02-28)
 
 
