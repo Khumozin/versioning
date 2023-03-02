@@ -3,7 +3,7 @@ import { Component, inject } from '@angular/core';
 import { map, of } from 'rxjs';
 
 import packageJson from '../../package.json';
-import { environment } from '../environments/environment.development';
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
