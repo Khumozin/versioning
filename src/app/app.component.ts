@@ -5,6 +5,11 @@ import { map, of } from 'rxjs';
 import packageJson from '../../package.json';
 import { environment } from '../environments/environment';
 
+const buildInfo = {
+  buildDate: new Date().toString(),
+  version: packageJson.version,
+};
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -15,11 +20,16 @@ export class AppComponent {
 
   private http = inject(HttpClient);
 
-  public version: string = packageJson.version;
-
-  public buildDate$ = environment.production
-    ? this.http
-        .get<any>(`${environment.repoUrl}${packageJson.version}`)
-        .pipe(map((response) => new Date(response.published_at)))
-    : of(new Date());
+  public buildInfo$ = environment.production
+    ? this.http.get<any>(`${environment.repoUrl}`).pipe(
+        map((response) =>
+          Array.isArray(response) && response.length > 0
+            ? {
+                buildDate: response[0].published_at,
+                version: response[0].name,
+              }
+            : buildInfo
+        )
+      )
+    : of(buildInfo);
 }
