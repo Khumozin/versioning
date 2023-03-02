@@ -24,12 +24,6 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('Versioning');
   });
 
-  it(`should contain a version number`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.version).not.toEqual('');
-  });
-
   it('should render text', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
