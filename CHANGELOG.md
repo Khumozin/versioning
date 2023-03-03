@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/Khumozin/versioning/compare/v3.1.0...v3.1.1) (2023-03-03)
+
+
+### Bug Fixes
+
+* **app.component:** fix footer ([a3f3fc6](https://github.com/Khumozin/versioning/commit/a3f3fc6e6abb65731903a4d9f8553a9b371e451a))
+
 # [3.1.0](https://github.com/Khumozin/versioning/compare/v3.0.5...v3.1.0) (2023-03-03)
 
 
