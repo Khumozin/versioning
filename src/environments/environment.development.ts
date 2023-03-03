@@ -1,4 +1,5 @@
 export const environment = {
   production: false,
-  repoUrl: 'https://api.github.com/repos/khumozin/versioning/releases',
+  appVersion: require('../../package.json').version + '--dev',
+  repoUrl: 'https://api.github.com/repos/khumozin/versioning/releases/tags/v',
 };
