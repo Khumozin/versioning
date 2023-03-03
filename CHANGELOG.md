@@ -1,3 +1,10 @@
+## [3.0.5](https://github.com/Khumozin/versioning/compare/v3.0.4...v3.0.5) (2023-03-03)
+
+
+### Bug Fixes
+
+* **app.component:** add version number to environments ([217a3c4](https://github.com/Khumozin/versioning/commit/217a3c40cd67f208fce8005ed8d4ddbcd56de6e9))
+
 ## [3.0.4](https://github.com/Khumozin/versioning/compare/v3.0.3...v3.0.4) (2023-03-02)
 
 
