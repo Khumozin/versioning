@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/Khumozin/versioning/compare/v3.0.5...v3.1.0) (2023-03-03)
+
+
+### Features
+
+* **app.component:** add footer ([35351b4](https://github.com/Khumozin/versioning/commit/35351b4bb2d541870049910fe020b4f5e381e676))
+
 ## [3.0.5](https://github.com/Khumozin/versioning/compare/v3.0.4...v3.0.5) (2023-03-03)
 
 
